@@ -5,7 +5,7 @@ set REPO=pennywise
 fsum -r -jm -md5 -d%REPO% * > checksum.md5
 move checksum.md5 %REPO%/checksum.md5
 
-quick_manifest.exe "Pennywise: Add Once Only" "1111111111" >%REPO%/manifest.json
+quick_manifest.exe "Pennywise: Add Once Only" "1032766035" >%REPO%/manifest.json
 
 %ZIP% %REPO%_20.zip *.py %REPO%/*
 
